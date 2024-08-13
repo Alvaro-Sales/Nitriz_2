@@ -4,14 +4,14 @@
 import Image from "next/image"
 import Link from "next/link"
 
-const Card = ({src, alt, href, text, precoAntes, precoAtual}) => {
+const Card = ({src, alt, href, text, height, width, precoAntes, precoAtual}) => {
     return(
         <>
             <div className="w-[410px] h-full min-h-[424px] flex items-center flex-col justify-around box-border px-2 py-7 m-3 rounded-3xl shadow bg-white">
 
                 <Image
-                    width={300}
-                    height={200}
+                    width={width}
+                    height={height}
                     src={src} 
                     alt={alt}
                     priority="true"

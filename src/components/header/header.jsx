@@ -6,7 +6,7 @@ import Image from "next/image"
 const Header = () => {
     return(
         <>
-            <header className="max-w-[100vw] w-full z-50 fixed">
+            <header className="max-w-[100vw] w-full z-50 fixed shadow-[#0000008f] shadow-lg">
 
                 <nav className="flex justify-between items-center box-border px-20 tablet:px-12 mobile:px-12 py-0 h-[6vh] min-h-[50px] bg-[#222222]">
 
@@ -51,14 +51,14 @@ const Header = () => {
                             </li>
                             
                             <li className="mr-3 tracking-[3px]">
-                                <Link href={"#corta-vento"} 
+                                <Link href={"#cortaVento"} 
                                     className="no-underline decoration-transparent p-2 text-white duration-300 hover:text-[#0080ff] border-none">
                                     Corta vento
                                 </Link>
                             </li>
 
                             <li className="mr-0 tracking-[3px]">
-                                <Link href={"#kits-da-Nike"} 
+                                <Link href={"#kitsNike"} 
                                     className="no-underline decoration-transparent p-2 text-white duration-300 hover:text-[#0080ff] border-none">
                                     Kits
                                 </Link>
